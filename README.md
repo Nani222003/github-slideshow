@@ -11,3 +11,14 @@ I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey t
 I'll meet you over there, can't wait to get started!
 
 This course is using the :sparkles: open source project [reveal.js](https://github.com/hakimel/reveal.js/). In some cases we’ve made changes to the history so it would behave during class, so head to the original project repo to learn more about the cool people behind this project.
+
+## Global Nautical Export Portal modules
+
+This repository now includes production scaffolding for three core modules:
+
+- `frontend/components/ExportAdvisor.jsx`: React AI advisor dashboard cards.
+- `frontend/components/HeroOcean.jsx`: Three.js wireframe hero ship animation.
+- `frontend/components/VesselMap.jsx`: Live vessel WebSocket consumer panel.
+- `backend/vessel_server.py`: Real-time vessel tracking WebSocket server.
+- `backend/main.py` and `backend/advisor_model.py`: API/model placeholders.
+- `database/schema.sql`: Initial schema for vessel and advisor data.
